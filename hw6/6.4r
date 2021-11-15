@@ -1,0 +1,1 @@
+proj{StudentId}(sigma{LecturerName=:LecturerName}(proj{StudentId, CourseId}(Marks njoin Students) gdiv proj{GroupId, CourseId, LecturerName}(Plan njoin Lecturers)) njoin Students)

@@ -1,0 +1,1 @@
+sigma{StudentId=:StudentId}(proj{StudentId, StudentName, GroupName}(Students njoin Groups))
