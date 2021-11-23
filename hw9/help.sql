@@ -1,0 +1,1 @@
+create type SeatStatus as Enum ('free', 'booked', 'bought');
